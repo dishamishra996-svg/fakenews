@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { Client, networks } from "contract";
-import type { ContentItem, TrustedSource, Verification } from "contract";
+import { Client, networks } from "@/lib/contract-gen";
+import type { ContentItem, TrustedSource, Verification } from "@/lib/contract-gen";
 import * as freighter from "@stellar/freighter-api";
 import { TransactionBuilder } from "@stellar/stellar-sdk";
 import { rpc } from "@stellar/stellar-sdk";
