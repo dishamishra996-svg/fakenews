@@ -1,0 +1,12 @@
+{
+  "version": "0.0.0",
+  "name": "contract",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {},
+  "dependencies": {
+    "@stellar/stellar-sdk": "^16.0.0",
+    "buffer": "6.0.3"
+  }
+}
